@@ -49,7 +49,7 @@ module.exports = function(grunt) {
     compress: {
       release: {
         options: {
-          archive: 'dist/releases/plugin.zip'
+          archive: 'dist/releases/avis.zip'
         },
         files: [
           // { expand: true, cwd: 'dist/kibana', src: ['**'], dest: 'dist/' }
