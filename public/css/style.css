@@ -1,0 +1,39 @@
+.vis-container {
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+text {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    fill: gray;
+}
+
+/* Brush */
+.brush .selection {
+    fill-opacity: 0.2;
+}
+
+/* Axis */
+.tick line,
+.axis path,
+.x-axis path,
+.y-axis path {
+    stroke: gray;
+}
+
+/* Horizontal, vertical lines */
+line, rect {
+    shape-rendering: crispEdges;
+}
+
+/* Normal straight lines in graphs */
+.links line,
+.links path {
+    fill: none;
+    stroke: gray;
+    shape-rendering: auto;
+}
